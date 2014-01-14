@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Delinked::VERSION
   gem.authors       = ["Johnny Graber"]
   gem.email         = ["jg@jgraber.ch"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = "delinked checks for broken links and displays which pages link to each other"
+  gem.summary       = "A simple link checker"
+  gem.homepage      = "https://github.com/jgraber/delinked"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
