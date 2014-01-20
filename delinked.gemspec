@@ -21,4 +21,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency('rake', '~> 0.9.2')
   gem.add_dependency('methadone', '~> 1.3.1')
   gem.add_development_dependency('rspec')
+  gem.add_dependency('mechanize', '~> 2.7.3')
+  gem.add_development_dependency('fakeweb', '~> 1.3.0')
 end
