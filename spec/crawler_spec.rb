@@ -10,6 +10,13 @@ describe "Crawling the start page" do
     FakeWeb.register_uri(:get, url, :body => response, :content_type => "text/html")
   }
 
+  it "and returns a page" do
+    crawler = Crawler.new
+    page = crawler.fetch(url)
+    (page.status).should eq 200
+    (page.links.length).should eq 15
+  end
+
   it "finds the links on the page" do
     crawler = Crawler.new
     puts url
