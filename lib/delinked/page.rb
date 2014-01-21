@@ -1,10 +1,9 @@
 class Page
-  attr_accessor :status
-  attr_reader :url, :title
+  attr_accessor :status, :title
+  attr_reader :url
 
-  def initialize(url, title)
+  def initialize(url)
     @url = url
-    @title = title
   end
 
 end
