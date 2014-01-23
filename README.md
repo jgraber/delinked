@@ -1,6 +1,6 @@
 # Delinked [![Build Status](https://travis-ci.org/jgraber/delinked.png?branch=master)](https://travis-ci.org/jgraber/delinked) [![Code Climate](https://codeclimate.com/github/jgraber/delinked.png)](https://codeclimate.com/github/jgraber/delinked)
 
-TODO: Write a gem description
+Delinked checks for broken links and displays which pages link to each other.
 
 ## Installation
 
