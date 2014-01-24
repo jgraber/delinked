@@ -2,14 +2,17 @@ require 'uri'
 
 class Link
 
+  # Create a Link with an url
   def initialize(url)
   	@url = URI.parse(url)
   end
 
+  # Get the url as a string.
   def url
   	@url.to_s
   end
 
+  # Check if the link is on the same domain as the other url.
   def same_domain?(other_url)
   	other = URI.parse(other_url)
 		same_hostname?(other) and same_scheme?(other)

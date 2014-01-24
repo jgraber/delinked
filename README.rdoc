@@ -1,18 +1,18 @@
-= delinked - DESCRIBE YOUR GEM
+= delinked - A simple link checker
 
-Author::  YOUR NAME (YOUR EMAIL)
-Copyright:: Copyright (c) 2014 YOUR NAME
+Author::  Johnny Graber (JG@JGraber.ch)
+Copyright:: Copyright (c) 2014 Johnny Graber
 
 
 License:: apache, see LICENSE.txt
 
 
 
-DESCRIBE YOUR GEM HERE
+Delinked checks for broken links and displays which pages link to each other.
 
 == Links
 
-* {Source on Github}[LINK TO GITHUB]
+* {Source on Github}[https://github.com/jgraber/delinked]
 * RDoc[LINK TO RDOC.INFO]
 
 == Install

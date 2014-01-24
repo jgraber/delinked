@@ -18,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Delinked is invoked from the command line using:
+		$ delinked <options> url
 
 ## Contributing
 
