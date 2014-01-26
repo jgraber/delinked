@@ -8,11 +8,13 @@ class Crawler
     }
   end
 
+  # Grap all the links on the url.
   def links(url)
     page = @mechanize.get(url)
     get_links(page)
   end
 
+  # Fetch the page with status and links.
   def fetch(url)
     page = Page.new(url)
 
